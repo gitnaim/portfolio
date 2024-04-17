@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head> 
+<title>LG 베스트샵</title> 
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap">
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+</head>
+<html>
+
+<body>
+    <div class="wrapper">
+        <div id="start">
+            <header>
+                <div class="inner">
+                    <div class="logo">
+                        <h1><a href=""><img src="pc_img/logo-bestshop.png" alt="logo-bestshop"></h1></a>
+                    </div>
+                    <nav id="gnb">
+                        <ul>
+                            <li>
+                                <a href="">매장안내</a>
+                                <ul>
+                                    <li><a href="">매장찾기</a></li>
+                                    <li><a href="">행사매장안내</a></li>
+                                    <li><a href="">아이폰 판매 매장</a></li>
+                                    <li><a href="">야간 무인 매장안내</a></li>
+                                    <li><a href="">서비스센터찾기</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">매장상담예약</a>
+                                <ul>
+                                    <li><a href="">매장상담예약</a></li>
+                                    <li><a href="">영상상담예약</a></li>
+                                    <li><a href="">수어상담예약</a></li>
+                                    <li><a href="">상담예약조회</a></li>
+                                    <li><a href="">시스템에어컨 상담 예약</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">제품정보</a>
+                                <ul>
+                                    <li><a href="">내게 맞는 제품 찾기</a></li>
+                                    <li><a href="">제품 카탈로그</a></li>
+                                    <li><a href="">제품 사용 설명서</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">이벤트</a>
+                                <ul>
+                                    <li><a href="">웨딩페어</a></li>
+                                    <li><a href="">아파트 입주 이벤트</a></li>
+                                    <li><a href="">베스트샵 라이브</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">제휴채널</a>
+                                <ul>
+                                    <li><a href="">오브제 컬렉션 클럽</a></li>
+                                    <li><a href="">우리동네 파트너스</a></li>
+                                    <li><a href="">베스트샵 제휴 문의</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="utility">
+                        <div class="search">
+                            <a href=""><img src="pc_img/icon-search-48.svg" alt="search"></a>
+                        </div>
+                        <div class="my_page">
+                            <a href=""><img src="pc_img/icon-person.svg" alt="my_page"></a>
+                        </div>
+                        <div class="com"><a href="">LGE.COM<img src="pc_img/btn-outlink-16 (1).png" alt="outlink"></a>
+                        </div>
+                    </div>
+                    <div id="tab">
+                        <a href=""><img src="pc_img/tab.png" alt="tab"></a>
+                    </div>
+                </div>
+            </header>
+
+            <!-- <div class="mobile">
+                <a href="" id="exit_1"><img src="pc_img/icon-delete-20.png" alt="close"></a>
+                <ul>
+                    <li>
+                        <a href="">매장안내</a>
+                        <ul>
+                            <li><a href="">매장찾기</a></li>
+                            <li><a href="">행사매장안내</a></li>
+                            <li><a href="">아이폰 판매 매장</a></li>
+                            <li><a href="">야간 무인 매장안내</a></li>
+                            <li><a href="">서비스 센터 찾기</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">상담예약</a>
+                        <ul>
+                            <li><a href="">매장 상담 예약</a></li>
+                            <li><a href="">영상 상담 예약</a></li>
+                            <li><a href="">수어 상담 예약</a></li>
+                            <li><a href="">상담 예약 조회</a></li>
+                            <li><a href="">시스템 에어컨 상담 예약</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">제품정보</a>
+                        <ul>
+                            <li><a href="">내게 맞는 제품 찾기</a></li>
+                            <li><a href="">제품 카탈로그</a></li>
+                            <li><a href="">제품 사용 설명서</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">이벤트</a>
+                        <ul>
+                            <li><a href="">웨딩페어</a></li>
+                            <li><a href="">베스트샵 라이브</a></li>
+                            <li><a href="">아파트 입주 이벤트</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">제휴채널</a>
+                        <ul>
+                            <li><a href="">오브제 컬렉션 클럽</a></li>
+                            <li><a href="">우리동네 파트너스</a></li>
+                            <li><a href="">베스트샵 제휴 문의</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div> -->
+
+            <div id="sitemap">
+                <div class="top">
+                    <div class="inner">
+                        <ul>
+                            <li><a href="" class="logo"><img src="pc_img/logo-bestshop.png" alt="logo"></a></li>
+                            <li><a href="" id="exit_1"><img src="pc_img/icon-delete-20.png" alt="close"></a></li>
+                        </ul>
+                        <div class="menu">
+                            <ul>
+                                <li>
+                                    <a href="">매장안내</a>
+                                    <ul>
+                                        <li><a href="">매장찾기</a></li>
+                                        <li><a href="">행사매장안내</a></li>
+                                        <li><a href="">아이폰 판매 매장</a></li>
+                                        <li><a href="">야간 무인 매장안내</a></li>
+                                        <li><a href="">서비스 센터 찾기</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">상담예약</a>
+                                    <ul>
+                                        <li><a href="">매장 상담 예약</a></li>
+                                        <li><a href="">영상 상담 예약</a></li>
+                                        <li><a href="">수어 상담 예약</a></li>
+                                        <li><a href="">상담 예약 조회</a></li>
+                                        <li><a href="">시스템 에어컨 상담 예약</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">제품정보</a>
+                                    <ul>
+                                        <li><a href="">내게 맞는 제품 찾기</a></li>
+                                        <li><a href="">제품 카탈로그</a></li>
+                                        <li><a href="">제품 사용 설명서</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">이벤트</a>
+                                    <ul>
+                                        <li><a href="">웨딩페어</a></li>
+                                        <li><a href="">베스트샵 라이브</a></li>
+                                        <li><a href="">아파트 입주 이벤트</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">제휴채널</a>
+                                    <ul>
+                                        <li><a href="">오브제 컬렉션 클럽</a></li>
+                                        <li><a href="">우리동네 파트너스</a></li>
+                                        <li><a href="">베스트샵 제휴 문의</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img">
+                            <ul>
+                                <li><a href=""><img src="pc_img/sitemap_bg1_1.jpg" alt="sitemap_bg1"></a></li>
+                                <li><a href=""><img src="pc_img/sitemap_bg3.jpg" alt="sitemap_bg3"></a></li>
+                            </ul>
+                            <a href=""><img src="pc_img/sitemap_bg2.jpg" alt="sitemap_bg2"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="tab_menu">
+                <a href="" class="close"><img src="pc_img/btn-close-32.png" alt="close"></a>
+                <ul>
+                    <li>
+                        <a href="">매장안내</a>
+                        <ul>
+                            <li><a href="">매장찾기</a></li>
+                            <li><a href="">행사매장안내</a></li>
+                            <li><a href="">아이폰 판매 매장</a></li>
+                            <li><a href="">야간 무인 매장안내</a></li>
+                            <li><a href="">서비스 센터 찾기</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">상담예약</a>
+                        <ul>
+                            <li><a href="">매장 상담 예약</a></li>
+                            <li><a href="">영상 상담 예약</a></li>
+                            <li><a href="">수어 상담 예약</a></li>
+                            <li><a href="">상담 예약 조회</a></li>
+                            <li><a href="">시스템 에어컨 상담 예약</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">제품정보</a>
+                        <ul>
+                            <li><a href="">내게 맞는 제품 찾기</a></li>
+                            <li><a href="">제품 카탈로그</a></li>
+                            <li><a href="">제품 사용 설명서</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">이벤트</a>
+                        <ul>
+                            <li><a href="">웨딩페어</a></li>
+                            <li><a href="">베스트샵 라이브</a></li>
+                            <li><a href="">아파트 입주 이벤트</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">제휴채널</a>
+                        <ul>
+                            <li><a href="">오브제 컬렉션 클럽</a></li>
+                            <li><a href="">우리동네 파트너스</a></li>
+                            <li><a href="">베스트샵 제휴 문의</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="family_site">
+                <a href="">FAMILY SITE<span id="open_close" class="open">open close</span></a>
+                <ul>
+                    <li><a href="">LGE.COM</a></li>
+                    <li><a href="">LG전자 서비스센터</a></li>
+                    <li><a href="">LG전자 B2B</a></li>
+                    <li><a href="">LG전자 시스템에어컨</a></li>
+                    <li><a href="">LG Careers</a></li>
+                </ul>
+            </div>
+
+            <div class="main_slider">
+                <div class="swiper-container mainSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="pc_img/slider_01.jpg" alt="slider_01">
+                            <div class="slide_text">
+                                <a href="">
+                                    <span>LG 가전 구독 라이프의 시작</span>
+                                    <strong>함께하면 더 커지는 혜택<br>지금 구독하세요!</strong>
+                                    <p>#더오래 #더깨끗하게 #라이프 맞춤 구독 서비스</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="pc_img/slider_02.jpg" alt="slider_02">
+                            <div class="slide_text">
+                                <a href="">
+                                    <span>따뜻한 연말연시를 위해 준비했어요</span>
+                                    <strong>LG전자 BESTSHOP<br>HAPPY 윈터데이</strong>
+                                    <p>#12월의베스트샵 #잘가2023 #환영해2024</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="pc_img/slider_03.jpg" alt="slider_03">
+                            <div class="slide_text">
+                                <a href="">
+                                    <span>2024 LG gram</span>
+                                    <strong>신모델 사전등록 EVENT!</strong>
+                                    <p>#2024그램 #신모델 #사전등록하고 #사은품받아가자</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="pc_img/slider_04.jpg" alt="slider_04">
+                            <div class="slide_text">
+                                <a href="">
+                                    <span>써 본 사람들이 무조건 만족하는</span>
+                                    <strong>Must-have 가전</strong>
+                                    <p>#꿈꾸던 삶 #일상이 되다 #Must&Best</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="pc_img/slider_05.jpg" alt="slider_05">
+                            <div class="slide_text">
+                                <a href="">
+                                    <span>갑진년에도 베스트샵과 함께!</span>
+                                    <strong>갑진년 값진 혜택을 위한<br>신년맞이 쿠폰 받기!</strong>
+                                    <p>#환영해갑진년 #잘부탁드려요</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="pc_img/slider_06.jpg" alt="slider_06">
+                            <div class="slide_text">
+                                <a href="">
+                                    <span>신제품 하이드로타워 출시</span>
+                                    <strong>정수의 기술로 완성한,<br>프리미엄 가습 라이프</strong>
+                                    <p>#건조한겨울 #이제그만 #정수가습기 #하이드로타워</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="pc_img/slider_07.jpg" alt="slider_07">
+                            <div class="slide_text">
+                                <a href="">
+                                    <span>예비 부부들은 주목!</span>
+                                    <strong>LG전자 베스트샵<br>오브제 웨딩 페어</strong>
+                                    <p>#예비신랑신부 #여기주목! #웨딩혜택</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="pc_img/slider_08.jpg" alt="slider_08">
+                            <div class="slide_text">
+                                <a href="">
+                                    <span>LG전자 베스트샵</span>
+                                    <strong>BEST 매니저를 소개합니다!</strong>
+                                    <p>#명예의전당 #명예대명장 #전국상위0.3%</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="pc_img/slider_09.jpg" alt="slider_09">
+                            <div class="slide_text">
+                                <a href="">
+                                    <span>LG전자 BESTSHOP</span>
+                                    <strong>2023 iPhone<br>고객 사랑 감사제</strong>
+                                    <p>#지금 바로 #Apple #iPhone15</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="pc_img/slider_10.jpg" alt="slider_10">
+                            <div class="slide_text">
+                                <a href="">
+                                    <span>갑진년에도 베스트샵과 함께!</span>
+                                    <strong>갑진년 값진 혜택을 위한<br>신년맞이 쿠폰 받기!</strong>
+                                    <p>#환영해갑진년 #잘부탁드려요</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="controller">
+                    <ul>
+                        <li><a href="" class="prev"><img src="pc_img/btn_arrow_right.png" alt="prev"></a></li>
+                        <li><a href="" class="next"><img src="pc_img/btn_arrow_right.png" alt="next"></a></li>
+                    </ul>
+                <div class="current_num">
+                    <span class="current"></span> / <span class="total"></span>
+                </div>
+                    <!-- <a href="" id="pause_play" class="pause"><img src="pc_img/btn_start.png" alt=""></a> -->
+                    <a href="" id="pause_play" class="pause">pause</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="page1">
+        <div class="title">
+            <h2>EVENT</h2>
+            <p>LG전자만의 이벤트를 확인해보세요!</p>
+        </div>
+        <div class="content">
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="pc_img/1 (1).svg" alt="icon_calendar">
+                        <p>이달의 혜택</p>
+                    </a>
+                </li>
+                <li>
+                    <a href=""><img src="pc_img/2 (1).svg" alt="icon_event">
+                        <p>이벤트</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="pc_img/3 (1).svg" alt="icon_wedding_ring">
+                        <p>웨딩페어</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="pc_img/4 (1).svg" alt="icon_move">
+                        <p>입주이벤트</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="page2">
+        <div class="inner">
+            <div class="title">
+                <h2>Best Shop 한눈에 보기</h2>
+                <p>매장찾기 제품찾기 오픈매장 라이브방송 매장상담예약 구독&케어십</p>
+            </div>
+            <div class="content">
+                <ul>
+                    <li>
+                        <a href="">
+                            <div class="wrap">
+                                <img src="pc_img/location.png" alt="location">
+                            </div>
+                            <div class="title">
+                                <span>매장찾기</span><br>
+                                <p>나에게 가까운 매장은?</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="wrap">
+                                <img src="pc_img/search.png" alt="search">
+                            </div>
+                            <div class="title">
+                                <span>제품찾기</span><br>
+                                <p>내게 맞는 제품은?</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="wrap">
+                                <img src="pc_img/open.png" alt="open">
+                            </div>
+                            <div class="title">
+                                <span>오픈매장</span><br>
+                                <p>행사 매장 안내</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="wrap">
+                                <img src="pc_img/live.png" alt="live">
+                            </div>
+                            <div class="title">
+                                <span>라이브 방송</span><br>
+                                <p>베스트샵 라이브 보기</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="wrap">
+                                <img src="pc_img/consulting.png" alt="consulting">
+                            </div>
+                            <div class="title">
+                                <span>매장상담
+                                    예약</span><br>
+                                <p>원하는 시간에 상담하세요!</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="wrap">
+                                <img src="pc_img/care.png" alt="care">
+                            </div>
+                            <div class="title">
+                                <span>구독&케어십</span><br>
+                                <p>전문가의 케어 서비스를 받아보세요!</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="page3">
+        <div class="inner">
+            <div class="title">
+                <h2>Best Shop 스토리</h2>
+                <p>베스트샵의 다양한 소식과 혜택을 만나보세요!</p>
+            </div>
+            <div class="sub_slider">
+                <div class="swiper-container subSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href=""><img src="pc_img/sub_contents_slider_06.jpg" alt="sub_contents_slider_06"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="pc_img/sub_contents_slider_01.jpg" alt="sub_contents_slider_01"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="pc_img/sub_contents_slider_02.jpg" alt="sub_contents_slider_02"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="pc_img/sub_contents_slider_03.jpg" alt="sub_contents_slider_03"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="pc_img/sub_contents_slider_04.jpg" alt="sub_contents_slider_04"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="pc_img/sub_contents_slider_05.jpg" alt="sub_contents_slider_05"></a>
+                        </div>
+                        <!-- <div class="swiper-slide">
+                            <a href=""><img src="pc_img/main_container_03.jpg" alt="main_container_03"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="pc_img/main_container_04.jpg" alt="main_container_04"></a>
+                        </div> -->
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="controller">
+                    <ul>
+                        <li><a href="" class="prev"><img src="pc_img/btn-arr-16-black-sm.png" alt="prev"></a></li>
+                        <li><a href="" class="next"><img src="pc_img/btn-arr-16-black-sm.png" alt="next"></a></li>
+                    </ul>
+                    <div class="current_num">
+                        <span class="current"></span> / <span class="total"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="page4">
+        <div class="inner">
+            <div class="title">
+                <h2>Best Shop Live</h2>
+            </div>
+            <div class="content">
+                <div class="video"><a href="https://youtu.be/94C7LfFnwYo?si=Crnm459kaWbilZ2M" type="_black"><img
+                            src="pc_img/Live_img.svg" alt="Live"></a></div>
+                <div class="more_videos">
+                    <h4>LG전자만의 기술력<br></h4>
+                    <span>LG전자를 선택해야하는 이유 3가지</span><br>
+                    <p>쓸수록 새로워지는 LG전자 가전을 만나보세요!</p>
+                    <div class="view_more_botton">
+                        <a><span>LG전자 영상 더보기</span></a>
+                        <a href=""><img src="pc_img/ico_blank_w.svg" alt="ico_blank"></a>
+                    </div>
+                    <div class="after_line">
+                        <a class="line1">line1</a>
+                        <a class="line2">line2</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="page5">
+        <div class="inner">
+            <div class="announcement">
+                <div class="title">
+                    <h2>공시 및 공지사항</h2>
+                    <div class="view_more">
+                        <a href=""><span>더보기</span></a>
+                        <a href="" class="more_botton"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h4><a href="">LG전자 서비스 개인정보 처리방침 시행 전 개정 안내</a></h4>
+                    <h4><a href="">[안내]시스템 점검에 따른 베스트샵 홈페이지 서비스 이용 제한 관련 안내</a></h4>
+                    <h4><a href="">LG전자 서비스 이용약관 및 개인정보 처리방침 시행 전 개정 안내</a></h4>
+                </div>
+            </div>
+            <div class="consulting">
+                <div class="title">
+                    <h2>상담 & 예약</h2>
+                    <div class="view_more">
+                        <a href=""><span>바로가기</span></a>
+                        <a href="" class="more_botton"></a>
+                    </div>
+                </div>
+                <div class="que">
+                    <p>'LG BESTSHOP'에 대해 궁금하신 내용을 확인해보세요!</p>
+                </div>
+                <div class="consulting_bg"><a href=""><img src="pc_img/helpdesk.svg" alt="helpdesk"></a></div>
+            </div>
+        </div>
+    </section>
+    <section id="page6">
+        <div class="inner">
+            <div class="title">
+                <h2>SNS 채널</h2>
+                <p><span>LG전자 베스트샵의 소식을 가장 빠르게 만나보세요!</span></p>
+            </div>
+            <div class="sns">
+                <ul>
+                    <li><a href=""><img src="pc_img/ico_sns_01.png" alt="blog"></a></li>
+                    <li><a href=""><img src="pc_img/ico_sns_02.png" alt="facebook"></a></li>
+                    <li><a href=""><img src="pc_img/ico_sns_03.png" alt="instagram"></a></li>
+                    <li><a href=""><img src="pc_img/ico_sns_04.png" alt="youtube"></a></li>
+                    <li><a href=""><img src="pc_img/ico_sns_05.png" alt="naver_post"></a></li>
+                    <li><a href=""><img src="pc_img/ico_sns_06.png" alt="naver_tv"></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="top">
+            <div class="inner">
+                <div class="bottom_logo">
+                    <a href=""><img src="pc_img/icon_care.png" alt="care"></a>
+                    <h4>LG전자 BESTSHOP 고객지원센터</h4>
+                </div>
+                <div class="call_number">
+                    <span>1544-7777</span>
+                    <p>(이용가능시간 : 평일 08:00 ~ 18:00)</p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="inner">
+                <div class="left">
+                    <div class="logo">
+                        <a href=""><img src="pc_img/logo-bestshop.png" alt="bestshop-logo"></a>
+                    </div>
+                    <div class="adress">
+                        <p><span>서울시 영등포구 여의대로 128 LG트윈타워</span></p>
+                        <p>Copyright © 2022 LG Elecrtonics. All Rights Reserved.</p>
+                    </div>
+                </div>
+                <!-- <div id="family_site">
+                    <a href="">FAMILY SITE<span id="open_close" class="open">open close</span></a>
+                    <ul>
+                        <li><a href="">LGE.COM</a></li>
+                        <li><a href="">LG전자 서비스센터</a></li>
+                        <li><a href="">LG전자 B2B</a></li>
+                        <li><a href="">LG전자 시스템에어컨</a></li>
+                        <li><a href="">LG Careers</a></li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>

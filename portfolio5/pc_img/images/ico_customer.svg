@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.368" height="27.848" viewBox="0 0 30.368 27.848">
+  <g id="ico_customer" transform="translate(-109.081 -688.297)">
+    <circle id="타원_2" data-name="타원 2" cx="2.202" cy="2.202" r="2.202" transform="translate(121.286 710.74)" fill="#fff" stroke="#1b1311" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="패스_65" data-name="패스 65" d="M134.616,699.3c.127-.011.252-.032.383-.032a3.2,3.2,0,0,1,3.45,2.875v2.62a3.2,3.2,0,0,1-3.45,2.875c-.131,0-.383-.032-.383-.032" fill="none" stroke="#1b1311" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="패스_66" data-name="패스 66" d="M113.915,699.3c-.128-.011-.252-.032-.384-.032a3.2,3.2,0,0,0-3.45,2.875v2.62a3.2,3.2,0,0,0,3.45,2.875c.132,0,.256-.021.384-.032l.589-.084" fill="none" stroke="#1b1311" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="패스_67" data-name="패스 67" d="M120.5,712.158a7.669,7.669,0,0,1-6.58-7.591v-7.6a7.667,7.667,0,0,1,7.667-7.667h5.367a7.667,7.667,0,0,1,7.667,7.667v10.67" fill="none" stroke="#1b1311" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect id="사각형_25" data-name="사각형 25" width="3.064" height="2.905" transform="translate(117.863 699.768)" fill="#e23317"/>
+    <rect id="사각형_26" data-name="사각형 26" width="3.064" height="2.905" transform="translate(123.136 699.768)" fill="#e23317"/>
+    <rect id="사각형_27" data-name="사각형 27" width="3.064" height="2.905" transform="translate(127.904 699.768)" fill="#e23317"/>
+  </g>
+</svg>
