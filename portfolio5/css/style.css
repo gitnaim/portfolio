@@ -951,6 +951,7 @@ footer .bottom .inner .adress p {
 	footer .top .inner {justify-content: flex-start;}
 } */
 #family_site {
+	display: none;
 	position: relative;
 	left: 0;
 	top: 0;
