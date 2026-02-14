@@ -100,7 +100,7 @@ section { word-break: keep-all; }
 #gnb > ul > li > a {
 	display: block;
 	position: relative;
-	width: 180px;
+	width: auto;
 	height: 90px;
 	line-height: 90px;
 	text-align: center; 
