@@ -83,7 +83,7 @@ header {
     transform: translateY(-50%);
     width: 30px;
     height: 30px;
-    background-image: url("/icons/icon_menu.svg");
+    background-image: url("icons/icon_menu.svg");
     background-position-x: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -143,12 +143,12 @@ header {
     height: 45px;
     background-color: rgb(151, 151, 151);
 
-    -webkit-mask-image: url("/icons/icon_close.svg");
+    -webkit-mask-image: url("icons/icon_close.svg");
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
     -webkit-mask-size: contain;
 
-    mask-image: url("/icons/icon_close.svg");
+    mask-image: url("icons/icon_close.svg");
     mask-repeat: no-repeat;
     mask-position: center;
     mask-size: contain;
@@ -894,12 +894,12 @@ section.section {
           height: 45px;
           background-color: rgba(255, 255, 255, 0.596);
 
-          -webkit-mask-image: url("/icons/icon_close.svg");
+          -webkit-mask-image: url("icons/icon_close.svg");
           -webkit-mask-repeat: no-repeat;
           -webkit-mask-position: center;
           -webkit-mask-size: contain;
 
-          mask-image: url("/icons/icon_close.svg");
+          mask-image: url("icons/icon_close.svg");
           mask-repeat: no-repeat;
           mask-position: center;
           mask-size: contain;
@@ -1041,7 +1041,7 @@ section.section {
               top: -7%;
               width: 45px;
               height: 45px;
-              background-image: url(/icons/icon_check.svg);
+              background-image: url(icons/icon_check.svg);
               background-size: contain;
             }
           }
@@ -1510,4 +1510,5 @@ section.section {
     }
   }
 }
+
 
