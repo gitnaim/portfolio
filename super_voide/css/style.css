@@ -156,7 +156,7 @@ header .menuIcon {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url("/image/main_bg.jpg");
+  background-image: url("image/main_bg.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -288,7 +288,7 @@ section.section--02 {
 }
 section.section--02 .bg {
   height: 331px;
-  background-image: url("/image/sectionBg_01.jpg");
+  background-image: url("image/sectionBg_01.jpg");
   background-size: cover;
   background-position: top;
 }
@@ -387,7 +387,7 @@ section.section--04, section.section--05 {
 }
 section.section--04 .bg, section.section--05 .bg {
   height: 100%;
-  background-image: url("/image/sectionBg_04.jpg");
+  background-image: url("image/sectionBg_04.jpg");
   background-size: cover;
   background-position: top;
 }
@@ -671,16 +671,16 @@ section.section--06 .content .photoBox ul.photoBox--list li.photoBox--item .bg:h
   transform: scale(1.02);
 }
 section.section--06 .content .photoBox ul.photoBox--list li.photoBox--item.photoBox--item01 .bg {
-  background-image: url("/image/sectionBg_06_01.jpg");
+  background-image: url("image/sectionBg_06_01.jpg");
 }
 section.section--06 .content .photoBox ul.photoBox--list li.photoBox--item.photoBox--item02 .bg {
-  background-image: url("/image/sectionBg_06_02.jpg");
+  background-image: url("image/sectionBg_06_02.jpg");
 }
 section.section--06 .content .photoBox ul.photoBox--list li.photoBox--item.photoBox--item03 .bg {
-  background-image: url("/image/sectionBg_06_03.jpg");
+  background-image: url("image/sectionBg_06_03.jpg");
 }
 section.section--06 .content .photoBox ul.photoBox--list li.photoBox--item.photoBox--item04 .bg {
-  background-image: url("/image/sectionBg_06_04.jpg");
+  background-image: url("image/sectionBg_06_04.jpg");
 }
 section.section--06 .content .photoBox ul.photoBox--list li.photoBox--item.rotate-image .bg {
   transform: scale(1) rotate(0deg);
@@ -788,7 +788,7 @@ section.section--07 .content span.text::before {
   transform: translateX(-50%);
   width: 20px;
   height: 21px;
-  background-image: url("/image/쌍따옴표.svg");
+  background-image: url("image/쌍따옴표.svg");
   background-size: contain;
 }
 section.section--08 {
@@ -950,7 +950,7 @@ section.section--09 .section__content .section__content__sideRight {
 section.section--09 .section__content .section__content__sideRight .img {
   width: 100%;
   height: 100%;
-  background-image: url("/image/section_09_img.jpg");
+  background-image: url("image/section_09_img.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
