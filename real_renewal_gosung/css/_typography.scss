@@ -1,0 +1,169 @@
+// .text {
+//   font-size: 18px;
+//   font-weight: 500;
+
+//   &.ftWhite {
+//     color: #fff;
+//     &.fs14 {
+//       font-size: 14px;
+//     }
+//     &.fs16 {
+//       font-size: 16px;
+//     }
+//     &.fs19 {
+//       font-size: 19px;
+//     }
+//     &.fs25 {
+//       font-size: 25px;
+//     }
+//   }
+//   &.ftBlack {
+//     color: #2e2e2e;
+//     &.fs14 {
+//       font-size: 14px;
+//     }
+//   }
+// }
+
+// .fs14 {
+//   font-size: 14px;
+//   font-weight: 500;
+//   color: #fff;
+// }
+// .fs16 {
+//   font-size: 16px;
+//   font-weight: 500;
+//   color: #fff;
+// }
+// .fs19 {
+//   font-size: 19px;
+//   font-weight: 500;
+//   color: #fff;
+// }
+// .fs25 {
+//   font-size: 25px;
+//   font-weight: 500;
+//   color: #fff;
+// }
+// .title {
+//   font-size: 20px;
+//   font-weight: 700;
+//   text-align: center;
+//   color: #494949;
+// }
+
+// .sub-title {
+//   margin: 8px 0 0;
+//   font-size: 16px;
+//   font-weight: 400;
+//   text-align: center;
+//   color: #494949;
+//   opacity: 0.7;
+// }
+
+// @mixin flex-center($align: center, $justify: center, $gap: 0) {
+//     display: flex;
+//     align-items: $align;
+//     justify-content: $justify;
+//     gap: $gap;
+//   }
+
+// @include fs-basic-w(1.3rem, 300, 1);
+
+@mixin fs-basic-w($size: 1rem, $weight: 400, $opacity: 1) {
+  font-size: $size;
+  font-weight: $weight;
+  color: #fff;
+  opacity: $opacity;
+}
+@mixin fs-basic-g($size: 1rem, $weight: 400, $opacity: 1) {
+  font-size: $size;
+  font-weight: $weight;
+  color: #6c6d6f;
+  opacity: $opacity;
+}
+@mixin fs-basic-b($size: 1rem, $weight: 400, $opacity: 1) {
+  font-size: $size;
+  font-weight: $weight;
+  color: #121e1a;
+  opacity: $opacity;
+}
+@mixin fs-basic-blue($size: 1rem, $weight: 400, $opacity: 1) {
+  font-size: $size;
+  font-weight: $weight;
+  color: #253d86;
+  opacity: $opacity;
+}
+
+// font-face Pretendard
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2")
+    format("woff2");
+  font-weight: 100;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraLight.woff2")
+    format("woff2");
+  font-weight: 200;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Light.woff2")
+    format("woff2");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2")
+    format("woff2");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-SemiBold.woff2")
+    format("woff2");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraBold.woff2")
+    format("woff2");
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Black.woff2")
+    format("woff2");
+  font-weight: 900;
+  font-display: swap;
+}
