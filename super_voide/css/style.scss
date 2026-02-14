@@ -83,7 +83,7 @@ header {
     transform: translateY(-50%);
     width: 30px;
     height: 30px;
-    background-image: url("icons/icon_menu.svg");
+    background-image: url("../icons/icon_menu.svg");
     background-position-x: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -143,12 +143,12 @@ header {
     height: 45px;
     background-color: rgb(151, 151, 151);
 
-    -webkit-mask-image: url("icons/icon_close.svg");
+    -webkit-mask-image: url("../icons/icon_close.svg");
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
     -webkit-mask-size: contain;
 
-    mask-image: url("icons/icon_close.svg");
+    mask-image: url("../icons/icon_close.svg");
     mask-repeat: no-repeat;
     mask-position: center;
     mask-size: contain;
@@ -180,7 +180,7 @@ header {
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url("image/main_bg.jpg");
+    background-image: url("../image/main_bg.jpg");
     background-size: cover;
     background-position: center;
   }
@@ -342,7 +342,7 @@ section.section {
 
     .bg {
       height: 331px;
-      background-image: url("image/sectionBg_01.jpg");
+      background-image: url("../image/sectionBg_01.jpg");
       background-size: cover;
       background-position: top;
     }
@@ -480,7 +480,7 @@ section.section {
 
     .bg {
       height: 100%;
-      background-image: url("image/sectionBg_04.jpg");
+      background-image: url("../image/sectionBg_04.jpg");
       background-size: cover;
       background-position: top;
     }
@@ -822,25 +822,25 @@ section.section {
 
             &.photoBox--item01 {
               .bg {
-                background-image: url("image/sectionBg_06_01.jpg");
+                background-image: url("../image/sectionBg_06_01.jpg");
               }
             }
 
             &.photoBox--item02 {
               .bg {
-                background-image: url("image/sectionBg_06_02.jpg");
+                background-image: url("../image/sectionBg_06_02.jpg");
               }
             }
 
             &.photoBox--item03 {
               .bg {
-                background-image: url("image/sectionBg_06_03.jpg");
+                background-image: url("../image/sectionBg_06_03.jpg");
               }
             }
 
             &.photoBox--item04 {
               .bg {
-                background-image: url("image/sectionBg_06_04.jpg");
+                background-image: url("../image/sectionBg_06_04.jpg");
               }
             }
           }
@@ -894,12 +894,12 @@ section.section {
           height: 45px;
           background-color: rgba(255, 255, 255, 0.596);
 
-          -webkit-mask-image: url("icons/icon_close.svg");
+          -webkit-mask-image: url("../icons/icon_close.svg");
           -webkit-mask-repeat: no-repeat;
           -webkit-mask-position: center;
           -webkit-mask-size: contain;
 
-          mask-image: url("icons/icon_close.svg");
+          mask-image: url("../icons/icon_close.svg");
           mask-repeat: no-repeat;
           mask-position: center;
           mask-size: contain;
@@ -969,7 +969,7 @@ section.section {
         transform: translateX(-50%);
         width: 20px;
         height: 21px;
-        background-image: url("image/쌍따옴표.svg");
+        background-image: url("../image/쌍따옴표.svg");
         background-size: contain;
       }
     }
@@ -1041,7 +1041,7 @@ section.section {
               top: -7%;
               width: 45px;
               height: 45px;
-              background-image: url("icons/icon_check.svg");
+              background-image: url("../icons/icon_check.svg");
               background-size: contain;
             }
           }
@@ -1162,7 +1162,7 @@ section.section {
         .img {
           width: 100%;
           height: 100%;
-          background-image: url("image/section_09_img.jpg");
+          background-image: url("../image/section_09_img.jpg");
           background-repeat: no-repeat;
           background-position: center center;
           background-size: cover;
@@ -1510,6 +1510,7 @@ section.section {
     }
   }
 }
+
 
 
 
